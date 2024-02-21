@@ -158,7 +158,7 @@ loader.setDRACOLoader(dracoLoader);
 
 let model
 let wheels = []
-await loader.loadAsync('ferrari.glb').then((gltf) => {
+await loader.loadAsync('models/gltf/ferrari.glb').then((gltf) => {
   model = gltf.scene
   model.scale.set(5, 5, 5)
   model.position.set(-10, 15, -15)
@@ -665,7 +665,7 @@ function animate() {
   constraintRLF.axisA.z = rightV
   constraintRRF.axisA.z = rightV
 
-  // cannonRenderer.update()
+  cannonRenderer.update()
 
   stat.update()
   TWEEN.update()
