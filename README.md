@@ -1,4 +1,9 @@
 # ThreeJs-Boxman
+## Control Boxman
+### Move: W A S D 
+
+## Control Car
+### Move: ↑ ↓ ← →
 
 ## Project setup
 ```
